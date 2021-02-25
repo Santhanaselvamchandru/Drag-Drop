@@ -1,0 +1,32 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+    
+}
+/*003B46*/
+body{
+    height : 100vh;
+    width : 100%;
+    overflow : hidden;
+    background-color : #C4DFE6;
+    display : flex;
+    align-items : center;
+    justify-content :center;
+}
+.container{
+    background-color : #003B46;
+    height : 400px;
+    width : 500px;
+    padding : 1rem;
+}
+#ball{
+    height : 50px;
+    width : 50px;
+    background-position :center;
+    background-size : cover;
+    background-image : url('ball.svg');
+    background-color : #FFF;
+    border-radius : 50%;
+    cursor : pointer;
+}
