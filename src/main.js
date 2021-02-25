@@ -16,6 +16,9 @@ ball.onmousedown = function(e){
     container.addEventListener('mousemove',mouseMove);
     ball.onmouseup = function(e){
         container.removeEventListener('mousemove',mouseMove);
-        ballonmouseup = null;
+        ball.onmouseup = null;
+    }
+    ball.ondragstart = function(){
+        return false;
     }
 }
